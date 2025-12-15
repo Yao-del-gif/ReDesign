@@ -180,3 +180,20 @@ header p {
         color: black;
     text-decoration: underline;
 }
+
+#img1:hover,
+#img2:hover {
+    transition-duration: 1s;
+    transform:translate3d(0, 0, 60px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.15);
+    box-shadow:0 30px 60px rgba(0, 0, 0, 0.35),0 0 0 2px rgba(255, 255, 255, 0.3);
+    z-index: 10;
+    filter: brightness(1.05) contrast(1.05);
+}
+
+#img3:hover {
+    transition-duration: 1s;
+    transform: translate3d(200px, 0, 30px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(1.15);
+    box-shadow:0 30px 60px rgba(0, 0, 0, 0.35),0 0 0 2px rgba(255, 255, 255, 0.3);
+    z-index: 10;
+    filter: brightness(1.05) contrast(1.05);
+}
